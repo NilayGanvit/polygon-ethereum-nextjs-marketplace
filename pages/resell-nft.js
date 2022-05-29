@@ -52,11 +52,7 @@ export default function ResellNFT() {
           className="mt-2 border rounded p-4"
           onChange={e => updateFormInput({ ...formInput, price: e.target.value })}
         />
-        {
-          image && (
-            
-          )
-        }
+        
         <button onClick={listNFTForSale} className="font-bold mt-4 bg-pink-500 text-white rounded p-4 shadow-lg">
           List NFT
         </button>
